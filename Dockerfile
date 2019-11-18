@@ -1,4 +1,4 @@
-FROM golang:1.12.5-alpine3.9
+FROM 1.13.4-alpine3.10
 
 RUN apk update \
     && apk add curl git \
